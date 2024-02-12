@@ -8,3 +8,39 @@ body {
     font-size: xx-large;
 
 }
+body{
+    margin: 0px; 
+}
+
+h1{
+    text-align: center;
+}
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+.navbar ul{ 
+    list-style-type: none;
+    background-color: #d2e7e6;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:rgb(175, 60, 179);
+    text-decoration: none;
+    padding: 15px; 
+    display: block;
+    text-align: center; 
+}
+.navbar a:hover{
+    background-color: #b6b6a8(0, 0%, 10%);
+
+}
+.navbar li{
+    float: left;
+
+
+}
