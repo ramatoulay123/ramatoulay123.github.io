@@ -41,6 +41,30 @@ nav{
 }
 .navbar li{
     float: left;
-
-
 }
+     text-center {
+        text-align: center;
+
+     }
+
+     #aboutme {
+        background-color: rgb(215, 201, 212)
+         
+     }
+
+     #contactinfo { 
+        background-color:rgb(215, 201, 212) 
+
+     }
+
+     #certifications {
+        background-color: rgb(215, 201, 212);
+     }
+
+     #projects {
+        background-color: rgb(215, 201, 212);
+     }
+
+    
+
+
