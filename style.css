@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Recursive:wght@300..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import  url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Satisfy&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 body { 
-    background-color: #fec7d7;
+    background-color: #edbad0;
     color: #fffffe;
-    font-family: "Protest Guerrilla", sans-serif;
-    font-size: xx-large;
+    
+    font-size: large;
 
 }
 body{
@@ -16,27 +15,27 @@ h1{
     text-align: center;
 }
 nav{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
 
 
 .navbar ul{ 
     list-style-type: none;
-    background-color: #d2e7e6;
+    background-color: hwb(334 90% 0%);
     padding: 0px; 
     margin: 0px;
     overflow: hidden;
 }
 .navbar a{
-    color:rgb(175, 60, 179);
+    color:rgb(9, 7, 9);
     text-decoration: none;
     padding: 15px; 
     display: block;
     text-align: center; 
 }
 .navbar a:hover{
-    background-color: #b6b6a8(0, 0%, 10%);
+    background-color: rgb(243, 215, 202);
 
 }
 .navbar li{
@@ -48,23 +47,69 @@ nav{
      }
 
      #aboutme {
-        background-color: rgb(215, 201, 212)
+        background-color: rgb(243, 215, 202);
          
      }
 
      #contactinfo { 
-        background-color:rgb(215, 201, 212) 
+        background-color: rgb(243, 215, 202); 
 
      }
 
      #certifications {
-        background-color: rgb(215, 201, 212);
+        background-color: rgb(243, 215, 202);
      }
 
      #projects {
-        background-color: rgb(215, 201, 212);
+        background-color: rgb(243, 215, 202);
      }
 
+     #soho {
+        background-color:rgb(243, 215, 202);
+     }
+
+     
+
+     aside {
+        width: 50%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        background-color: rgb(255, 248, 227);
+      }
+      
+
+
+a:hover {
+    color: rgb(230, 164, 180);
+  } 
+
+img {
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  img:hover {
+    transform: scale(1.1); 
+  }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  section:nth-child(odd) > img {
+    float: left;
+  }
+  
+  
+  section:nth-child(odd) > img {
+    float: right;
+  }
+  
+  
     
 
 
