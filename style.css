@@ -72,10 +72,8 @@ nav{
 
      aside {
         width: 50%;
-        padding-left: 15px;
-        margin-left: 15px;
         float: right;
-        background-color: rgb(255, 248, 227);
+
       }
       
 
@@ -99,16 +97,50 @@ img {
     justify-content: space-between;
   }
   
-  
+  section {
+    background-color: rgb(255, 248, 227);
+    padding: 15px;
+    overflow: auto;
+    margin-top: 15px;
+  }
+
   section:nth-child(odd) > img {
     float: left;
   }
   
   
-  section:nth-child(odd) > img {
+  section:nth-child(even) > img {
     float: right;
   }
   
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  input[type=email] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  input[type=tel] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  #security {
+    background-color:rgb(243, 215, 202);
+ }
+ #madlibs {
+    background-color:rgb(243, 215, 202);
+ }
   
     
 
