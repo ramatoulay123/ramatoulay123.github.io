@@ -1,4 +1,7 @@
-@import  url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Satisfy&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Micro+5&family=Satisfy&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 
 body { 
     background-color: #edbad0;
@@ -141,7 +144,47 @@ img {
  #madlibs {
     background-color:rgb(243, 215, 202);
  }
+ #stylevista{
+  background-color:rgb(243, 215, 202);
+}
+
+
+ .fa-square-instagram
+        {   
+            font-size: 50px; 
+            color:rgb(198, 100, 185)
+            
+        } 
+.fa-discord  
+{   
+  font-size: 50px; 
+  color:rgb(231, 232, 233)
   
-    
+} 
+  
+.fa-square-x-twitter
+{   
+  font-size: 50px; 
+  color:rgb(3, 3, 4)
+  
+} 
+
+.fa-envelope
+{   
+  font-size: 50px; 
+  color:rgb(231, 232, 233)
+  
+} 
+
+.fa-linkedin
+{   
+  font-size: 50px; 
+  color:rgb(81, 131, 180)
+  
+} 
+
+#funfacts {
+  background-color:rgb(220, 244, 192);
+}
 
 
