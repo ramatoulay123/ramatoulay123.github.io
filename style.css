@@ -16,9 +16,10 @@ body{
 
 h1{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: large;
 }
 
@@ -129,6 +130,14 @@ img {
   }
 
   input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+
+  input[type=email] {
     border: 2px solid black;
     border-radius: 4px;
   }
@@ -137,6 +146,14 @@ img {
     border: 2px solid black;
     border-radius: 4px;
   }
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+
 
   #security {
     background-color:rgb(243, 215, 202);
@@ -185,6 +202,15 @@ img {
 
 #funfacts {
   background-color:rgb(220, 244, 192);
+}
+
+@media screen and (max-width: 800px) { 
+  img { max-width: 50%
+  
+    } 
+  p {  text-align: center;
+      font-size: small;} 
+  
 }
 
 

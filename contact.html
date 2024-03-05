@@ -1,112 +1,120 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {background-color:rgb(243, 215, 202)}
-        h1   {color:rgb(13, 12, 12);}
-        p    {color:antiquewhite;
-              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-     
+        body {
+            background-color: rgb(243, 215, 202)
+        }
+
+        h1 {
+            color: rgb(13, 12, 12);
+        }
+
+        p {
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
     </style>
-    
+
     <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="project.html">Project</a></li>
             <li><a href="contact.html">contact</a></li>
-            <li><a href="https://docs.google.com/document/d/1xtc8GhHXcjOjnBaI2q0oN1cKFFzf5F_irk3hixDG0U0/edit">resume</a></li>
+            <li><a
+                    href="https://docs.google.com/document/d/1xtc8GhHXcjOjnBaI2q0oN1cKFFzf5F_irk3hixDG0U0/edit">resume</a>
+            </li>
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-       <style type="css/text" > 
-            
-         
-         
-         
-         </style>     
-    
-       
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <style type="css/text">
+
+
+
+
+            </style>
+
+
         </ul>
-   </nav>
+    </nav>
 
 </head>
 
 
-<body> 
+<body>
 
     <h1 id="contactinfo">Contact info </h1>
 
-<form> 
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
 
-<div>
-    <label for="fname">full name:</label>
-      <br>
-    <input type="text" id="fname" name="fname" placeholder="type here" required>
-</div> 
-    <br> 
-<div>
-    <label for="email">email:</label>
-    <br>
-    <input type="email"  id="email" name="email" placeholder="type here" required> 
+        <div>
+            <label for="fname">full name:</label>
+            <br>
+            <input type="text" id="fname" name="fname" placeholder="type here" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="type here" required>
 
-</div> 
-   <br> 
-<div> 
-    <label for="number">phone number:</label>
-    <br> 
-    <input type="tel" id="phone number" name="phone number" placeholder="type here" required> 
-</div>
- <br> 
-<div> 
-    <label for="linkedin">Linkedin:</label>
-    <br> 
-    <input type="text" id="linkedin" name="linkedin" placeholder="type here"> 
-</div>
-  <br> 
-<div> 
-    <label for="info">Additional information:</label> 
-    <br>
-    <input type="text" id="information" name="information" placeholder="type here">
-   
-    <form
- action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
- method="post"
->
-<div> 
-    <input name="send-to" value="rbarry@brooklynsteamcenter.org" hidden>
-</div>
-
-</form> 
-
-<br> 
-<div> 
-    <input type="reset"> 
-</div>
-<br> 
-<div> 
-    <input type="submit">
-
-</div>
+        </div>
+        <br>
+        <div>
+            <label for="number">phone number:</label>
+            <br>
+            <input type="tel" id="phone number" name="phone number" placeholder="type here" required>
+        </div>
+        <br>
+        <div>
+            <label for="linkedin">Linkedin:</label>
+            <br>
+            <input type="text" id="linkedin" name="linkedin" placeholder="type here">
+        </div>
+        <br>
+        <div>
+            <label for="info">Additional information:</label>
+            <br>
+            <input type="text" id="information" name="information" placeholder="type here">
 
 
-<hr> 
+            <div>
+                <input name="send-to" value="rbarry@brooklynsteamcenter.org" hidden>
+            </div>
 
-<p> 
-    <i class="fa-brands fa-square-instagram"></i> 
-    <i class="fa-brands fa-discord"></i> 
-    <i class="fa-brands fa-square-x-twitter"></i> 
-    <i class="fa-solid fa-envelope"></i>
-    <i class="fa-brands fa-linkedin"></i>
-</p>
+            <br>
+            <div>
+                <input type="reset">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+
+            </div>
+            </div>
+    </form>
+
+
+    <hr>
+
+    <p>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </p>
 
 
 </body>
+
 </html>
